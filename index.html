@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-image: url("images/pattern-background-desktop.svg");
+      background-repeat: no-repeat;
+      background-color: hsl(225, 100%, 94%);
+      background-size: cover;
+      font-size: 15px;
+      font-family: "Red Hat Display";
+    }
+    h2,h4{
+      color: hsl(223, 47%, 23%);
+    }
+    h4{
+      margin: 0;
+    }
+    .card{
+      max-width: 350px;
+      max-height: 800px;
+      margin: auto;
+      margin-top: 120px;
+      background-color: white;
+      border-radius: 10px;
+      
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 5px 5px 0 0;
+    }
+    .card-body{
+      padding: 5px 30px 30px 30px;
+      
+      text-align: center;
+    }
+    .plan{
+      background-color: hsl(225, 100%, 98%);
+      text-align: left;
+      height: 60px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .plan p{
+      float: left;
+      margin: 0;
+      padding: 10px;
+    }
+    .btn1{
+      margin-top: 10px;
+      width: 100%;
+      color: white;
+      background-color: hsl(245, 75%, 52%);
+      border-radius: 5px;
+      border: none;
+      font-family: "Red Hat Display";
+      padding: 5px;
+    }
+    .btn2{
+      margin-top: 10px;
+      width: 100%;
+      color: #808080;
+      background-color: white;
+      border-radius: 5px;
+      border: none;
+      font-family: "Red Hat Display";
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div>
+      <img src="images/illustration-hero.svg" alt="pic">
+      
+      <div class="card-body">
+        <h2>Order Summary</h2>
+        <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!</p>
+
+        <div class="plan"><p><img src="images/icon-music.svg" alt=""></p>
+          <p>Annual Plan <br>$59.99/year</p>
+           <p> <a href="">Change</a></p>
+        </div>
+
+        <button class="btn1">Proceed to Payment</button>
+        <button class="btn2">Cancel Order</button>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Shruti</a>.
+  </div>
+</body>
+</html>
